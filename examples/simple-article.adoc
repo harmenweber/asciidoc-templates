@@ -1,0 +1,176 @@
+Asciidoc Test Article
+=====================
+:source-highlighter: rouge
+:icons: font
+:icon-set: far 
+:autofit-option:
+:toc:
+:sectnums:
+:Author: Harmen Weber
+:Email: weber@arviem.com
+:Date: 2020-12-12
+:Revision: 0.0.1
+
+As far as I understood, the first paragraph after the main header is the
+preamble. I'm not sure what a preamble usually contains. Something like an
+abstract, I guess. I'll have to look that up and read some examples.
+
+== Level 1 Header
+This is the first paragraph of the first level 1 section. I will try out a few
+things in this section. For example notes, links and lists.
+
+[[test-anchor]]
+=== Level 2 Header
+First, I will try out a few things with paragraphs. Seemingly, paragraphs
+themselves can have titles. The following paragraph for example will have a
+short title. Let's see how it looks.
+
+.Short Title
+This is the second paragraph which should have a small title. Let's see how
+that looks once I generate a PDF or an HTML for it.
+
+.Literal Paragraph
+I can create literal paragraphs. That means it will be monospaced and any
+whitespaces will be kept and not removed. This can be useful for certain things
+like ascii art. The paragraph below is a literal paragraph.
+
+        _   ,_,   _
+       / `'=) (='` \
+      /.-.-.\ /.-.-.\
+      `      "      `
+
+I hope one can see the ascii art above correctly.
+
+.Notes
+One can create notes in to variations. 
+
+NOTE: This is a note without a title. I add a bit more text to it to see
+whether vim properly formats this variation of writing a note. Unfortunately,
+vim isn't that smart. But it doesn't matter. Asciidoctor-pdf obviously can
+handle the note even if it isn't formatted perfectly.
+
+.Note Title
+NOTE: This is a note with a title.
+
+TIP: This is a tip.
+
+WARNING:  This is a warning.
+
+IMPORTANT: This is important.
+
+CAUTION: Here you need to be cautious.
+
+
+.Custom Callout
+=========================================
+This is an example block. The get numbered automatically.
+
+Even with multiple paragraphs. Splendid.
+=========================================
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum.
+
+.Sidebar
+****
+This is a sidebar I'm not sure whether it really floats to the side. To test
+it, I put text before and after.
+****
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum.
+
+.Source Code
+Below is some source code:
+
+[source,shell]
+ps -ef | grep java
+
+I can also create multi-line souce code blocks:
+
+.Multi-Line Source Code Block
+[source,javascript]
+----
+function log(message) {
+    console.log(getDateTime() + ": " + message);
+}
+----
+
+There is autofit configuration that can either be set globally or on specific
+code blocks. It shrinks the code such that long code lines may still fit into
+the PDF. The code block below has this autofit enabled. Let's see how it looks.
+And to learn more about it, refer to
+https://asciidoctor.org/docs/asciidoctor-pdf/#autowidth-tables.
+
+.Long lined code block
+[source%autofit,javascript]
+----
+function log(message) {
+    console.log(getDateTime() + ": " + message); # And some rather long comment which should lead to a shrink.
+}
+----
+
+=== Icons
+This is actually a feature documented at https://asciidoctor.org/docs/asciidoctor-pdf/#font-based-icons. Take a look at it. 
+
+Here is a fontawesome icon: icon:comment[].
+
+And here is an icon from another icon set: icon:amazon[set=pf].
+
+You can even set the size of the icons: icon:smile[size=2em]
+
+=== Definitions
+The typical definitions look as follows:
+
+.Position Measurement Type
+GPS:: Denotes that the position is a GPS position.
+CELLULAR:: Denotes that the position is a cellular position.
+
+However, you can also create horizontal definitions.
+
+[horizontal]
+.Position Measurement Type
+GPS:: Denotes that the position is a GPS position.
+
+CELLULAR:: Denotes that the position is a cellular position. I'm adding here
+more text to it to see how the term gets verically aligned. Nice, the term is
+top aligned.
+
+=== Q&A
+[qanda]
+What is the answer to the universe, god and everything?::
+The answer is 42.
+
+What time is today?::
+I don't know. Maybe 22:00?
+
+What day is it today?::
+It is Sunday 2020-12-13.
+
+=== Tables
+There are awesome table features. You can actually just paste CSV into your
+document ant it will create a table for it. So you don't have to wiggle and
+bring your data into the markdown specific format. Just awesome.
+
+[grid="rows",format="csv"]
+[options="header",cols="^,<,<s,<,>m"]
+|===========================
+ID,FName,LName,Address,Phone
+1,Vasya,Pupkin,London,+123
+2,X,Y,"A,B",45678
+|===========================
+
+=== Lists
+* [ ] Todo 1 
+* [x] Todo 2 (done)
+
+=== Anchors & Cross References
+This is a cross-reference to an anchor defined earlier in the document: <<test-anchor,link>>.
