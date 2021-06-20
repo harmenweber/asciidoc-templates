@@ -1,0 +1,12 @@
+= Title: Subtitle
+:doctype: book
+:source-highlighter: rouge
+:icons: font
+:icon-set: far
+:autofit-option:
+:toc:
+:sectnums:
+//:Author: Harmen Weber
+//:Email: harmen.weber@gmail.com
+
+// I use this template to print cover pages in folders.

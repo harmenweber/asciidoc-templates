@@ -12,3 +12,10 @@ font:
       italic: NotoSans-Italic.ttf
       bold: NotoSans-Bold.ttf
       bold_italic: NotoSans-BoldItalic.ttf
+footer:
+  recto:
+    right:
+      content: '{section-or-chapter-title} | *{page-number}*'
+  verso:
+    left:
+      content: '*{page-number}* | {section-or-chapter-title}'
