@@ -14,6 +14,11 @@ font:
       italic: SourceCodePro-Italic.ttf
       bold: SourceCodePro-Bold.ttf
       bold_italic: SourceCodePro-BoldItalic.ttf
+    JetBrains-Mono:
+      normal: JetBrainsMono-Regular.ttf
+      italic: JetBrainsMono-Italic.ttf
+      bold: JetBrainsMono-Bold.ttf
+      bold_italic: JetBrainsMono-BoldItalic.ttf
 base:
   font-color: #2E3440
   font-family: Noto-Sans
@@ -27,13 +32,13 @@ link:
 literal:
   background-color: #ECEFF4
   font-color: #4C566A
-  font-family: Source-Code-Pro
+  font-family: JetBrains-Mono
   font-size: 9
   border-offset: 2
   border-radius: 2px
 code:
   background-color: #ECEFF4
-  font-family: Source-Code-Pro
+  font-family: JetBrains-Mono
   font-color: #4C566A
   font-size: 9
   border-color: #ECEFF4
@@ -47,7 +52,7 @@ conum:
 key:
   background-color: #ECEFF4
   font-color: #4C566A
-  font-family: Source-Code-Pro
+  font-family: JetBrains-Mono
   font-style: bold
   font-size: 9
   border-width: 1
@@ -153,6 +158,7 @@ thematic-break:
 description-list:
   term-font-color: #5E81AC
 footer:
+  font-color: #4C566A
   recto:
     right:
       content: '{section-or-chapter-title} | *{page-number}*'
