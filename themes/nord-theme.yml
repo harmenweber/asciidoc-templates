@@ -1,0 +1,161 @@
+extends: default-with-fallback-font
+page:
+  size: A4
+font:
+  catalog:
+    merge: true
+    Noto-Sans:
+      normal: NotoSans-Regular.ttf
+      italic: NotoSans-Italic.ttf
+      bold: NotoSans-Bold.ttf
+      bold_italic: NotoSans-BoldItalic.ttf
+    Source-Code-Pro:
+      normal: SourceCodePro-Regular.ttf
+      italic: SourceCodePro-Italic.ttf
+      bold: SourceCodePro-Bold.ttf
+      bold_italic: SourceCodePro-BoldItalic.ttf
+base:
+  font-color: #2E3440
+  font-family: Noto-Sans
+  font-size: 10
+heading:
+  font-color: #3B4252
+caption:
+  font-color: #5E81AC
+link:
+  font-color: #5E81AC
+literal:
+  background-color: #ECEFF4
+  font-color: #4C566A
+  font-family: Source-Code-Pro
+  font-size: 9
+  border-offset: 2
+  border-radius: 2px
+code:
+  background-color: #ECEFF4
+  font-family: Source-Code-Pro
+  font-color: #4C566A
+  font-size: 9
+  border-color: #ECEFF4
+  border-radius: 4px
+  border-width: 1
+  highlight-background-color: #E5E9F0
+  linenum-font-color: #D8DEE9
+conum:
+  font-color: #5E81AC
+  glyphs: circled
+key:
+  background-color: #ECEFF4
+  font-color: #4C566A
+  font-family: Source-Code-Pro
+  font-style: bold
+  font-size: 9
+  border-width: 1
+  border-color: #D8DEE9
+  border-offset: 1
+  border-radius: 2px
+  content: " %s "
+button:
+  background-color: #ECEFF4
+  font-color: #4C566A
+  font-family: Noto-Sans
+  font-style: bold
+  font-size: 9
+  border-width: 1
+  border-color: #D8DEE9
+  border-offset: 1
+  border-radius: 2px
+  content: " %s "
+blockquote:
+  font-color: #434C5E
+  font-family: Noto-Sans
+  font-size: 10
+  font-style: italic
+  padding: [6, 12, -6, 14]
+  border-color: #D8DEE9
+  border-left-width: 3
+  border-width: 0
+  cite:
+    font-color: #4C566A
+    font-family: Noto-Sans
+    font-size: 9
+    font-style: italic
+verse:
+  font-color: #434C5E
+  font-family: Noto-Sans
+  font-size: 10
+  font-style: italic
+  padding: [6, 12, -6, 14]
+  border-color: #D8DEE9
+  border-left-width: 3
+  border-width: 0
+  cite:
+    font-color: #4C566A
+    font-family: Noto-Sans
+    font-size: 9
+    font-style: italic
+sidebar:
+  background-color: #ECEFF4
+  font-family: Noto-Sans
+  font-color: #4C566A
+  font-size: 9
+  border-color: #ECEFF4
+  border-radius: 4px
+  border-width: 1
+  title:
+    align: left
+    font-color: #5E81AC
+    font-family: Noto-Sans
+    font-style: bold
+    font-size: 12
+example:
+  background-color: #FFFFFF
+  border-color: #ECEFF4
+  border-radius: 4px
+  border-width: 1
+  font-color: #2E3440
+  font-family: Noto-Sans
+  font-size: 10
+admonition:
+  column-rule-color: #D8DEE9
+  column-rule-style: solid
+  column-rule-width: 1
+  label:
+    align: center
+    vertical-align: middle
+  icon:
+    note:
+      name: fas-pencil-alt
+      stroke-color: #81A1C1
+      size: 18
+    tip:
+      name: fas-thumbs-up
+      stroke-color: #A3BE8C
+      size: 18
+    warning:
+      name: fas-skull-crossbones
+      stroke-color: #BF616A
+      size: 18
+    important:
+      name: fas-highlighter
+      stroke-color: #EBCB8B
+      size: 18
+    caution:
+      name: fas-exclamation-triangle
+      stroke-color: #D08770
+      size: 18
+image:
+  align: center
+thematic-break:
+  border-color: #ECEFF4
+  border-style: solid
+  border-width: 1
+description-list:
+  term-font-color: #5E81AC
+footer:
+  recto:
+    right:
+      content: '{section-or-chapter-title} | *{page-number}*'
+  verso:
+    left:
+      content: '*{page-number}* | {section-or-chapter-title}'

@@ -1,16 +1,19 @@
 = Asciidoc Test Article
 :source-highlighter: rouge
+:rouge-style: github
 :icons: font
 :icon-set: far 
 :autofit-option:
 :toc:
 :sectnums:
+:experimental:
 :Author: Harmen Weber
 :Email: weber@arviem.com
 :Date: 2020-12-12
 :Revision: 0.0.1
 
-As far as I understood, the first paragraph after the main header is the preamble.I'm not sure what a preamble usually contains.Something like an abstract, I guess.I'll have to look that up and read some examples.
+As far as I understood, the first paragraph after the main header is the preamble.I'm not sure what a preamble usually contains.
+Something like an abstract, I guess.I'll have to look that up and read some examples.
 
 == Level 1 Header
 
@@ -30,6 +33,13 @@ Let's see how it looks.
 This is the second paragraph which should have a small title.
 Let's see how that looks once I generate a PDF or an HTML for it.
 
+.Inline Literal
+There are inline literals.
+I create here one mainly to see whether it looks nice in my themes.
+Here is an inline literal: `asciidoc2pdf simple-article.adoc`.
+Let's see how that looks if there is text around it.
+Does the border offset and the border radius look good?
+
 .Literal Paragraph
 I can create literal paragraphs.
 That means it will be monospaced and any whitespaces will be kept and not removed.
@@ -43,7 +53,8 @@ The paragraph below is a literal paragraph.
 
 I hope one can see the ascii art above correctly.
 
-.Notes
+=== Admonitions
+
 One can create notes in to variations.
 
 NOTE: This is a note without a title.
@@ -63,24 +74,41 @@ IMPORTANT: This is important.
 
 CAUTION: Here you need to be cautious.
 
-.Custom Callout
-=========================================
-This is an example block.
-The get numbered automatically.
+=== Example Blocks
 
-Even with multiple paragraphs.
-Splendid.
-=========================================
+An example block is useful for visually delineating content that illustrates a concept or showing the result of an operation.
+An example can contain any type of content and AsciiDoc syntax.
+Normal substitutions are applied to example content.
+
+If the example content is contiguous, i.e., not interrupted by empty lines, the block style name `example` can be placed directly on top of the text in an attribute list (`[]`).
+
+If the example content includes multiple blocks or content separated by empty lines, place the content between delimiter lines consisting of four equals signs (`====`).
+
+.Onomatopoeia
+====
+The book hit the floor with a *thud*.
+
+He could hear doves _cooing_ in the pine trees' branches.
+====
+
+=== Sidebars
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-.Sidebar
+.Optional Title
 ****
-This is a sidebar I'm not sure whether it really floats to the side.
-To test it, I put text before and after.
+Sidebars are used to visually separate auxiliary bits of content that supplement the main text.
+
+TIP: They can contain any type of content.
+
+.Source code block in a sidebar
+[source,js]
+----
+const { expect, expectCalledWith, heredoc } = require('../test/test-utils')
+----
 ****
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -88,7 +116,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-.Source Code
+=== Source Code
+
 Below is some source code:
 
 [source,shell]
@@ -97,12 +126,15 @@ ps -ef | grep java
 I can also create multi-line souce code blocks:
 
 .Multi-Line Source Code Block
-[source,javascript]
+[source,javascript,linenums,highlight=2]
 ----
-function log(message) {
-    console.log(getDateTime() + ": " + message);
+function log(message) { <1>
+    console.log(getDateTime() + ": " + message); <2>
 }
 ----
+
+<1> Declaration of the log function.
+<2> Logging the current datetime followed by the log message.
 
 There is autofit configuration that can either be set globally or on specific code blocks.
 It shrinks the code such that long code lines may still fit into the PDF.
@@ -130,20 +162,110 @@ And here is an icon from another icon set: icon:amazon[set=pf].
 
 You can even set the size of the icons: icon:smile[size=2em]
 
+=== Keyboard
+
+The keyboard macro uses the short (no target) macro syntax `kbd` `:` `[key(+key)*]`.
+Each key is displayed as entered in the document.
+Multiple keys are separated by a plus (e.g., `Ctrl+T`) or a comma (e.g., `Ctrl,T`).
+The plus is preferred.
+It’s customary to represent alpha keys in uppercase, though this is not enforced.
+If the last key is a backslash (`\`), it must be followed by a space.
+Without this space, the processor will not recognize the macro.
+If one of the keys is a closing square bracket (`]`), it must be proceeded by a backslash.
+Without the backslash escape, the macro will end prematurely.
+You can find example of these cases in the example below.
+Here are some examples:
+
+|===
+|Shortcut |Purpose
+
+|kbd:[F11]
+|Toggle fullscreen
+
+|kbd:[Ctrl+T]
+|Open a new tab
+
+|kbd:[Ctrl+Shift+N]
+|New incognito window
+
+|kbd:[\ ]
+|Used to escape characters
+
+|kbd:[Ctrl+\]]
+|Jump to keyword
+
+|kbd:[Ctrl + +]
+|Increase zoom
+|===
+
+=== Buttons
+
+It can be difficult to communicate to the reader that they need to press a button.
+They can’t tell if you are saying “OK” or they are supposed to look for a button labeled OK.
+It’s all about getting the semantics right.
+The btn macro to the rescue!
+Here are some examples:
+
+Press the btn:[Ok] button when you are finished. +
+Select a file in the file navigator and click btn:[Open].
+
+=== Menus
+
+Trying to explain how to select a menu item can be a pain.
+With the menu macro, the symbols do the work.
+Here are some examples:
+
+To save the file, select menu:File[Save]. +
+Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
+
 === Definitions
 
 The typical definitions look as follows:
 
-.Position Measurement Type
 GPS:: Denotes that the position is a GPS position.
 CELLULAR:: Denotes that the position is a cellular position.
 
 However, you can also create horizontal definitions.
 
 [horizontal]
-.Position Measurement Type
 GPS:: Denotes that the position is a GPS position.
+CELLULAR:: Denotes that the position is a cellular position.
+I'm adding here more text to it to see how the term gets verically aligned.
+Nice, the term is top aligned.
 
+You can also create them so they have markers.
+These markers are either unordered:
+
+[unordered]
+GPS:: Denotes that the position is a GPS position.
+CELLULAR:: Denotes that the position is a cellular position.
+I'm adding here more text to it to see how the term gets verically aligned.
+Nice, the term is top aligned.
+
+Or ordered:
+
+[ordered]
+GPS:: Denotes that the position is a GPS position.
+CELLULAR:: Denotes that the position is a cellular position.
+I'm adding here more text to it to see how the term gets verically aligned.
+Nice, the term is top aligned.
+
+By default, the subject (i.e., the term) is followed immediately by a colon (still in bold) and offset from the description by a space.
+You can replace the colon with another character (or sequence of characters) using the block attribute named `subject-stop`.
+
+[unordered,subject-stop=" >"]
+GPS:: Denotes that the position is a GPS position.
+CELLULAR:: Denotes that the position is a cellular position.
+I'm adding here more text to it to see how the term gets verically aligned.
+Nice, the term is top aligned.
+
+A description list with marker uses a run-in layout by default.
+In other words, the subject appears on the same line as the description, separated by the subject stop and a space.
+To make the subject appear above the description, like in a normal description list, add the stack role to the list.
+In this case, the stop character is only added if specified explicitly.
+
+[unordered.stack]
+GPS:: Denotes that the position is a GPS position.
 CELLULAR:: Denotes that the position is a cellular position.
 I'm adding here more text to it to see how the term gets verically aligned.
 Nice, the term is top aligned.
@@ -183,3 +305,61 @@ ID,FName,LName,Address,Phone
 === Anchors & Cross References
 
 This is a cross-reference to an anchor defined earlier in the document: <<test-anchor,link>>.
+
+Alternatively, one can link directly to any header in the document like this: <<Admonitions>>.
+
+=== Blockquotes
+
+After landing the cloaked Klingon bird of prey in Golden Gate park:
+
+[quote,Captain James T. Kirk,Star Trek IV: The Voyage Home]
+____
+Everybody remember where we parked.
+____
+
+=== Verse
+
+When you need to preserve indents and line breaks, use a verse block.
+Verses are defined by setting `verse` on a paragraph or an excerpt block delimited by four underscores.
+
+[verse,Carl Sandburg,Fog]
+____
+The fog comes
+on little cat feet.
+
+It sits looking
+over harbor and city
+on silent haunches
+and then moves on.
+____
+
+=== Images
+
+There are two AsciiDoc image macro types, block and inline.
+As with all macros, the block and inline forms differ by the number of colons that follow the macro name.
+The block form uses two colons (`::`), whereas the inline form only uses one (`:`).
+
+Here is an example block image:
+
+image::resources/sunset.jpg[]
+
+And here is an example of the same block image but with an ID, a caption, a link, and size attributes.
+
+[#img-sunset]
+.A mountain sunset
+[link=https://docs.asciidoctor.org/asciidoc/latest/macros/_images/sunset.jpg]
+image::resources/sunset.jpg[Sunset,200,100]
+
+And here are two examples of inline images.
+The second one has a title that will be displaye when hovering over the image (at least in HTML).
+
+Click image:resources/play.png[] to get the party started. +
+Click image:resources/pause.png[title="Pause"] when you need a break.
+
+=== Horizontal Rule
+
+Here is some text that is followed by a horizontal rule.
+
+'''
+
+And then the text continues.
