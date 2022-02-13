@@ -2,7 +2,7 @@
 :source-highlighter: rouge
 :rouge-style: github
 :icons: font
-:icon-set: far 
+:icon-set: far
 :autofit-option:
 :toc:
 :sectnums:
@@ -164,7 +164,7 @@ You can even set the size of the icons: icon:smile[size=2em]
 
 === Keyboard
 
-The keyboard macro uses the short (no target) macro syntax `kbd` `:` `[key(+key)*]`.
+The keyboard macro uses the short (no target) macro syntax `+kbd:[key(+key)*]+`.
 Each key is displayed as entered in the document.
 Multiple keys are separated by a plus (e.g., `Ctrl+T`) or a comma (e.g., `Ctrl,T`).
 The plus is preferred.

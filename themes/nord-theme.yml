@@ -28,7 +28,7 @@ heading:
 caption:
   font-color: #5E81AC
 link:
-  font-color: #5E81AC
+  font-color: #81A1C1
 literal:
   background-color: #ECEFF4
   font-color: #4C566A
@@ -47,13 +47,13 @@ code:
   highlight-background-color: #E5E9F0
   linenum-font-color: #D8DEE9
 conum:
-  font-color: #5E81AC
+  font-color: #B48EAD
   glyphs: circled
 key:
   background-color: #ECEFF4
   font-color: #4C566A
   font-family: JetBrains-Mono
-  font-style: bold
+  font-style: normal
   font-size: 9
   border-width: 1
   border-color: #D8DEE9
@@ -64,7 +64,7 @@ button:
   background-color: #ECEFF4
   font-color: #4C566A
   font-family: Noto-Sans
-  font-style: bold
+  font-style: normal
   font-size: 9
   border-width: 1
   border-color: #D8DEE9
@@ -132,23 +132,23 @@ admonition:
     note:
       name: fas-pencil-alt
       stroke-color: #81A1C1
-      size: 18
+      size: 14
     tip:
       name: fas-thumbs-up
       stroke-color: #A3BE8C
-      size: 18
+      size: 14
     warning:
       name: fas-skull-crossbones
       stroke-color: #BF616A
-      size: 18
+      size: 14
     important:
       name: fas-highlighter
       stroke-color: #EBCB8B
-      size: 18
+      size: 14
     caution:
       name: fas-exclamation-triangle
       stroke-color: #D08770
-      size: 18
+      size: 14
 image:
   align: center
 thematic-break:

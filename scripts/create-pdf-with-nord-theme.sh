@@ -21,7 +21,11 @@ readonly themesHome="${scriptHome}/../themes"
 readonly fontsHome="${scriptHome}/../fonts"
 readonly fontsListSeparatedBySemicolon="$(find "${fontsHome}" -depth 1 | tr '\n' \;)"
 
+# Regarding the flag '-a optimize', please read: https://github.com/asciidoctor/asciidoctor-pdf#optimizing-the-generated-pdf.
 asciidoctor-pdf \
     -a pdf-theme="${themesHome}/nord-theme.yml" \
     -a pdf-fontsdir="${fontsListSeparatedBySemicolon};GEM_FONTS_DIR" \
+    -a source-highlighter="rouge" \
+    -a rouge-style="github" \
+    -a optimize \
     "$@"
