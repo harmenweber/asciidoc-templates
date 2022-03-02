@@ -15,14 +15,13 @@
 As far as I understood, the first paragraph after the main header is the preamble.I'm not sure what a preamble usually contains.
 Something like an abstract, I guess.I'll have to look that up and read some examples.
 
-== Level 1 Header
+== Sections, Titles & Paragraphs
 
-This is the first paragraph of the first level 1 section.
-I will try out a few things in this section.
-For example notes, links and lists.
+This here is a first level section.
+Below is a second level section.
 
 [[test-anchor]]
-=== Level 2 Header
+=== Second Level Section
 
 First, I will try out a few things with paragraphs.
 Seemingly, paragraphs themselves can have titles.
@@ -53,7 +52,7 @@ The paragraph below is a literal paragraph.
 
 I hope one can see the ascii art above correctly.
 
-=== Admonitions
+== Admonitions
 
 One can create notes in to variations.
 
@@ -74,7 +73,7 @@ IMPORTANT: This is important.
 
 CAUTION: Here you need to be cautious.
 
-=== Example Blocks
+== Example Blocks
 
 An example block is useful for visually delineating content that illustrates a concept or showing the result of an operation.
 An example can contain any type of content and AsciiDoc syntax.
@@ -91,7 +90,7 @@ The book hit the floor with a *thud*.
 He could hear doves _cooing_ in the pine trees' branches.
 ====
 
-=== Sidebars
+== Sidebars
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -116,7 +115,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-=== Source Code
+== Source Code
 
 Below is some source code:
 
@@ -151,7 +150,7 @@ function log(message) {
 }
 ----
 
-=== Icons
+== Icons
 
 This is actually a feature documented at https://asciidoctor.org/docs/asciidoctor-pdf/#font-based-icons.
 Take a look at it.
@@ -162,7 +161,7 @@ And here is an icon from another icon set: icon:amazon[set=pf].
 
 You can even set the size of the icons: icon:smile[size=2em]
 
-=== Keyboard
+== Keyboard
 
 The keyboard macro uses the short (no target) macro syntax `+kbd:[key(+key)*]+`.
 Each key is displayed as entered in the document.
@@ -198,7 +197,7 @@ Here are some examples:
 |Increase zoom
 |===
 
-=== Buttons
+== Buttons
 
 It can be difficult to communicate to the reader that they need to press a button.
 They can’t tell if you are saying “OK” or they are supposed to look for a button labeled OK.
@@ -209,7 +208,7 @@ Here are some examples:
 Press the btn:[Ok] button when you are finished. +
 Select a file in the file navigator and click btn:[Open].
 
-=== Menus
+== Menus
 
 Trying to explain how to select a menu item can be a pain.
 With the menu macro, the symbols do the work.
@@ -218,7 +217,7 @@ Here are some examples:
 To save the file, select menu:File[Save]. +
 Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
 
-=== Definitions
+== Definitions
 
 The typical definitions look as follows:
 
@@ -270,7 +269,7 @@ CELLULAR:: Denotes that the position is a cellular position.
 I'm adding here more text to it to see how the term gets verically aligned.
 Nice, the term is top aligned.
 
-=== Q&A
+== Q&A
 
 [qanda]
 What is the answer to the universe, god and everything?::
@@ -283,7 +282,7 @@ Maybe 22:00?
 What day is it today?::
 It is Sunday 2020-12-13.
 
-=== Tables
+== Tables
 
 There are awesome table features.
 You can actually just paste CSV into your document ant it will create a table for it.
@@ -297,18 +296,18 @@ ID,FName,LName,Address,Phone
 1,Vasya,Pupkin,London,+123 2,X,Y,"A,B",45678
 |===========================
 
-=== Lists
+== Lists
 
 * [ ] Todo 1
 * [x] Todo 2 (done)
 
-=== Anchors & Cross References
+== Anchors & Cross References
 
 This is a cross-reference to an anchor defined earlier in the document: <<test-anchor,link>>.
 
 Alternatively, one can link directly to any header in the document like this: <<Admonitions>>.
 
-=== Blockquotes
+== Blockquotes
 
 After landing the cloaked Klingon bird of prey in Golden Gate park:
 
@@ -317,7 +316,7 @@ ____
 Everybody remember where we parked.
 ____
 
-=== Verse
+== Verse
 
 When you need to preserve indents and line breaks, use a verse block.
 Verses are defined by setting `verse` on a paragraph or an excerpt block delimited by four underscores.
@@ -333,7 +332,7 @@ on silent haunches
 and then moves on.
 ____
 
-=== Images
+== Images
 
 There are two AsciiDoc image macro types, block and inline.
 As with all macros, the block and inline forms differ by the number of colons that follow the macro name.
@@ -356,7 +355,7 @@ The second one has a title that will be displaye when hovering over the image (a
 Click image:resources/play.png[] to get the party started. +
 Click image:resources/pause.png[title="Pause"] when you need a break.
 
-=== Horizontal Rule
+== Horizontal Rule
 
 Here is some text that is followed by a horizontal rule.
 
