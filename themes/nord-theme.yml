@@ -157,6 +157,39 @@ thematic-break:
   border-width: 1
 description-list:
   term-font-color: #5E81AC
+role:
+  nord0:
+    font-color: #2e3440
+  nord1:
+    font-color: #3b4252
+  nord2:
+    font-color: #434c5e
+  nord3:
+    font-color: #4c566a
+  nord4:
+    font-color: #d8dee9
+  nord5:
+    font-color: #e5e9f0
+  nord6:
+    font-color: #eceff4
+  nord7:
+    font-color: #8fbcbb
+  nord8:
+    font-color: #88c0d0
+  nord9:
+    font-color: #81a1c1
+  nord10:
+    font-color: #5e81ac
+  nord11:
+    font-color: #bf616a
+  nord12:
+    font-color: #d08770
+  nord13:
+    font-color: #ebcb8b
+  nord14:
+    font-color: #a3be8c
+  nord15:
+    font-color: #b48ead
 footer:
   font-color: #4C566A
   recto:

@@ -8,9 +8,7 @@
 :sectnums:
 :experimental:
 :Author: Harmen Weber
-:Email: weber@arviem.com
-:Date: 2020-12-12
-:Revision: 0.0.1
+:Email: harmen.weber@gmail.com
 
 As far as I understood, the first paragraph after the main header is the preamble.I'm not sure what a preamble usually contains.
 Something like an abstract, I guess.I'll have to look that up and read some examples.

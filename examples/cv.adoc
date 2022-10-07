@@ -1,0 +1,99 @@
+= Harmen Weber CV
+:doctype: book
+:notitle:
+:nofooter:
+:source-highlighter: rouge
+:rouge-style: github
+:icons: font
+:icon-set: fas
+:autofit-option:
+:experimental:
+:Author: Harmen Weber
+:Email: harmen.weber@gmail.com
+
+== Harmen Weber __(DRAFT)__
+Designer, developer and operator of enterprise applications in the cloud that provide a modern API and integrate other enterprise applications via web services and messaging. +
+Core competency in back-end development (PoEAA) and integrations (EIP) using the Java ecosystem, messaging and relational databases. +
+Basic experience in front-end development with Typescript/Javascript.
+
+[.nord3]#icon:map-marker-alt[fw]# [.nord4]#|# Dohlenzelgstrasse 21B, 5210 Windisch +
+[.nord3]#icon:phone[fw]# [.nord4]#|# +41 79 659 63 87 +
+[.nord3]#icon:envelope[fw]# [.nord4]#|# \harmen.weber@gmail.com +
+[.nord3]#icon:linkedin-in[set=fab,fw]# [.nord4]#|# linkedin.com/in/harmenweber
+
+=== Work Experience
+[horizontal]
+[.nord3]#Jul 2013 – Mar 2022#::
+**Senior Software Engineer at Arviem AG** +
+Developed and operated Arviem's supply chain monitoring SaaS.
+The software provides multimodal in-transit supply chain visibility to Arviem's clients.
+The actionable insights help clients in their daily operations and empower them to optimize their supply chain.
++
+--
+Example features:
+
+* Realtime monitoring of sensor values and events of in-transit shipments. +
+Example sensor values: position, temperature, humidity. +
+Example events: door opened/closed, geo zone entry/exit, motion/stationary, shock.
+* ETA calculation.
+* Emissions accounting according to the GLEC framework.
+* Performance report to assess and monitor the performance of routes, carriers, transshipment locations, etc.
+
+Tech stack: Java, Javascript, Maven, Spring Boot, Spring Integration, Spring Batch, Hibernate, RabbitMQ, Apache Spark, MySQL, AWS Aurora, AWS Elastic Beanstalk, AWS Athena, Tableau.
+--
+
+[.nord3]#Feb 2012 – Jun 2013#::
+**Software Developer at Legando AG** +
+Developed the Legando Enterprise Solution Suite (LESS) which is Legando's internal framework for next generation application powered by Java, Spring, Hibernate and Vaadin. +
+Developed Legando's registered shares solution (NAR) powered by LESS. +
+Maintained Legando's core banking solution. +
+ +
+Tech stack: Java, Javascript, Maven, Spring Framework, Spring Integration, Hibernate, Vaadin, Oracle Database, Oracle WebLogic.
+
+[.nord3]#Jan 2006 – Jan 2012#::
+**Advisory IT Specialist at IBM Schweiz AG** +
+Worked on the following projects / for the following clients: +
++
+--
+[.nord3]#Legando AG#::
+Supported Legando AG in Quality Assurance. +
+Introduced processes and tools to measure and improve code quality. +
+Developed automated acceptance and regression tests.
+
+[.nord3]#ZEK/IKO#::
+Maintained and extended the existing ZEK/IKO credit information and assessment system. +
++
+Tech stack: Java, Maven, IBM WebSphere, IBM MQ Series, IBM DB2, SOAP & WS-Security.
+
+[.nord3]#Vista#::
+Gathered requirements for the social insurance system Vista.
+First for the sub application regarding family allowances and later for the sub application regarding contributions. +
+Created detailed and development ready documentation for the offshore development team in India. +
+Conducted knowledge transfer sessions with the offshore development team. +
+Coached the development team and performed acceptance tests.
+--
+
+=== Academic Record
+[horizontal]
+[.nord3]#Oct 2002 – Dec 2005#::
+**University of Applied Sciences and Arts Northwestern Switzerland FHNW** +
+Bachelor, Enterprise Computing
+
+=== IT Skills
+[horizontal]
+[.nord3]#Core#::
+Design, development and operations of enterprise applications (PoEAA) and integrations (EIP) in the cloud using the Java ecosystem, messaging and relational databases.
+
+[.nord3]#Basic#::
+Back-end development with NestJS. +
+Front-end development with Typescript/Javascript.
+
+=== Language Skills
+[horizontal]
+[.nord3]#Mother Tongue#:: German
+[.nord3]#Fluent#:: English
+
+// [#personal-interests]
+// === Personal Interests
+// '''
+// Hiking, swimming, robotics, popular science books
