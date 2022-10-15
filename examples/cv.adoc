@@ -1,5 +1,5 @@
 = Harmen Weber CV
-:doctype: book
+:doctype: article
 :notitle:
 :nofooter:
 :source-highlighter: rouge
@@ -11,23 +11,31 @@
 :Author: Harmen Weber
 :Email: harmen.weber@gmail.com
 
-== Harmen Weber __(DRAFT)__
+.Feedback from Adrian Arnold, Prime21
+[IMPORTANT]
+====
+- [ ] ... qualitat und quantitative sehr / auserordentlich gut & bedauern und jederzeit wieder anstellen & termingerecht & selbststaendig & team player &
+====
+
+== Harmen Weber
 Designer, developer and operator of enterprise applications in the cloud that provide a modern API and integrate other enterprise applications via web services and messaging. +
-Core competency in back-end development (PoEAA) and integrations (EIP) using the Java ecosystem, messaging and relational databases. +
-Basic experience in front-end development with Typescript/Javascript.
+
+Core competency in backend development (PoEAA) and integration (EIP) using the Java ecosystem, messaging and relational databases.
+Basic experience in frontend development with Typescript/Javascript.
 
 [.nord3]#icon:map-marker-alt[fw]# [.nord4]#|# Dohlenzelgstrasse 21B, 5210 Windisch +
 [.nord3]#icon:phone[fw]# [.nord4]#|# +41 79 659 63 87 +
 [.nord3]#icon:envelope[fw]# [.nord4]#|# \harmen.weber@gmail.com +
-[.nord3]#icon:linkedin-in[set=fab,fw]# [.nord4]#|# linkedin.com/in/harmenweber
+[.nord3]#icon:linkedin-in[set=fab,fw]# [.nord4]#|# linkedin.com/in/harmenweber/
 
 === Work Experience
 [horizontal]
 [.nord3]#Jul 2013 – Mar 2022#::
 **Senior Software Engineer at Arviem AG** +
-Developed and operated Arviem's supply chain monitoring SaaS.
-The software provides multimodal in-transit supply chain visibility to Arviem's clients.
-The actionable insights help clients in their daily operations and empower them to optimize their supply chain.
+Designed, developed and operated Arviem's supply chain monitoring system.
+It's a SaaS that provides multimodal in-transit supply chain visibility to Arviem's clients.
+It processes data from various sources and distills actionable insights.
+These insights help clients in their daily operations and empower them to optimize their supply chain.
 +
 --
 Example features:

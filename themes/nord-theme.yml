@@ -9,11 +9,6 @@ font:
       italic: NotoSans-Italic.ttf
       bold: NotoSans-Bold.ttf
       bold_italic: NotoSans-BoldItalic.ttf
-    Source-Code-Pro:
-      normal: SourceCodePro-Regular.ttf
-      italic: SourceCodePro-Italic.ttf
-      bold: SourceCodePro-Bold.ttf
-      bold_italic: SourceCodePro-BoldItalic.ttf
     JetBrains-Mono:
       normal: JetBrainsMono-Regular.ttf
       italic: JetBrainsMono-Italic.ttf
