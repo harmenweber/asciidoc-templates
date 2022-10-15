@@ -1,0 +1,25 @@
+= Themes
+:author: Harmen Weber
+:email: harmen.weber@gmail.com
+:keywords: asciidoc-templates
+:sectnums:
+:sectanchors:
+:source-highlighter: rouge
+:rouge-style: github
+:icons: font
+:icon-set: far
+:experimental:
+
+I love the https://www.nordtheme.com[Nord theme].
+Unfortunately, I'm terrible at adopting themes.
+Nevertheless, I spent a bit of effort to make my documents use the colors of the Nord theme.
+The theme is located at link:../../../../themes/nord-theme.yml[themes/nord-theme.yml].
+
+The simplest way to use the theme, is to call the script link:../../../../scripts/create-pdf-with-nord-theme.sh[scripts/create-pdf-with-nord-theme.sh] and pass your AsciiDoc file as argument to it.
+
+[source,shell]
+----
+./scripts/create-pdf-with-nord-theme.sh your-article.adoc
+----
+
+Read xref:scripts.adoc[] and take a look at the source of the script to learn more about the script.

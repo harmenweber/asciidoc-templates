@@ -1,0 +1,5 @@
+name: asciidoc-templates
+title: asciidoc-templates
+version: ~
+nav:
+  - modules/ROOT/nav.adoc

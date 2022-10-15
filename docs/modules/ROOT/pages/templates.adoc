@@ -1,0 +1,13 @@
+= Templates
+:author: Harmen Weber
+:email: harmen.weber@gmail.com
+:keywords: asciidoc-templates
+:sectnums:
+:sectanchors:
+:source-highlighter: rouge
+:rouge-style: github
+:icons: font
+:icon-set: far
+:experimental:
+
+_to be written_

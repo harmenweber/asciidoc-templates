@@ -1,0 +1,19 @@
+= Introduction
+:author: Harmen Weber
+:email: harmen.weber@gmail.com
+:keywords: asciidoc-templates
+:sectnums:
+:sectanchors:
+:source-highlighter: rouge
+:rouge-style: github
+:icons: font
+:icon-set: far
+:experimental:
+
+This repository holds resources that I use when I write in AsciiDoc.
+It includes templates, themes, scripts and whatever else might be handy.
+
+To whoever stumbled upon this repository:
+I hope you find something useful for yourself.
+Let me know if you have anything to amend, improve or correct.
+Let me know if you have any resources of your own that you are willing to share.
