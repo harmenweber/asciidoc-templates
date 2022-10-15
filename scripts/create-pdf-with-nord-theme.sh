@@ -14,7 +14,7 @@ set -o pipefail
 # Collect information about the running script.
 readonly scriptFile="$(basename "${0}")"
 readonly scriptName="$(basename "${0}" .sh)"
-readonly scriptHome="$(cd $(dirname "${0}") && pwd)"
+readonly scriptHome="$(cd "$(dirname "${0}")" && pwd)"
 
 # Constants
 readonly themesHome="${scriptHome}/../themes"

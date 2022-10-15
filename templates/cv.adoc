@@ -1,4 +1,6 @@
 = Harmen Weber CV
+:author: Harmen Weber
+:email: harmen.weber@gmail.com
 :doctype: article
 :notitle:
 :nofooter:
@@ -8,14 +10,6 @@
 :icon-set: fas
 :autofit-option:
 :experimental:
-:Author: Harmen Weber
-:Email: harmen.weber@gmail.com
-
-.Feedback from Adrian Arnold, Prime21
-[IMPORTANT]
-====
-- [ ] ... qualitat und quantitative sehr / auserordentlich gut & bedauern und jederzeit wieder anstellen & termingerecht & selbststaendig & team player &
-====
 
 == Harmen Weber
 Designer, developer and operator of enterprise applications in the cloud that provide a modern API and integrate other enterprise applications via web services and messaging. +

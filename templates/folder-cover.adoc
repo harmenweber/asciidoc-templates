@@ -1,4 +1,6 @@
 = Title: Subtitle
+// :author: Harmen Weber
+// :email: harmen.weber@gmail.com
 :doctype: book
 :source-highlighter: rouge
 :icons: font
@@ -6,7 +8,5 @@
 :autofit-option:
 :toc:
 :sectnums:
-//:Author: Harmen Weber
-//:Email: harmen.weber@gmail.com
 
-// I use this template to print cover pages in folders.
+// I use this template to print cover pages for folders.

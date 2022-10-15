@@ -1,4 +1,6 @@
 = Asciidoc Test Article
+:author: Harmen Weber
+:email: harmen.weber@gmail.com
 :source-highlighter: rouge
 :rouge-style: github
 :icons: font
@@ -7,8 +9,6 @@
 :toc:
 :sectnums:
 :experimental:
-:Author: Harmen Weber
-:Email: harmen.weber@gmail.com
 
 As far as I understood, the first paragraph after the main header is the preamble.
 I'm not sure what a preamble usually contains.
@@ -175,6 +175,7 @@ Without the backslash escape, the macro will end prematurely.
 You can find example of these cases in the example below.
 Here are some examples:
 
+[cols="<,<",options="header",frame="none",grid="rows",stripes="none"]
 |===
 |Shortcut |Purpose
 
@@ -289,7 +290,7 @@ You can actually just paste CSV into your document ant it will create a table fo
 So you don't have to wiggle and bring your data into the markdown specific format.
 Just awesome.
 
-[cols="^,<,<s,<,>m",options="header",frame="none",grid="rows",format="csv"]
+[cols="^,<,<s,<,>m",options="header",frame="none",grid="rows",stripes="none",format="csv"]
 |===========================
 ID,FName,LName,Address,Phone
 

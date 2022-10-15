@@ -1,4 +1,6 @@
 = Simple Letter
+:author: Harmen Weber
+:email: harmen.weber@gmail.com
 :doctype: article
 :notitle:
 :noheader:
@@ -9,10 +11,8 @@
 :icon-set: fas
 :autofit-option:
 :experimental:
-:Author: Harmen Weber
-:Email: harmen.weber@gmail.com
 
-[.normal.left]
+[.normal]
 Your first and last name +
 Your street and street number +
 Your zip code and city
@@ -68,7 +68,7 @@ Phasellus porta feugiat mi ac bibendum.
 --
 Best regards,
 
-image:resources/signature.png[width=150pt]
+image:resources/signature.png[]
 
 Your first and last name
 --

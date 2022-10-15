@@ -1,4 +1,23 @@
 extends: default-with-fallback-font
+# Custom variables for the nord theme (https://www.nordtheme.com/) color palette.
+# Refer to these values as follows: $nord-nord12
+nord:
+  nord0: #2e3440
+  nord1: #3b4252
+  nord2: #434c5e
+  nord3: #4c566a
+  nord4: #d8dee9
+  nord5: #e5e9f0
+  nord6: #eceff4
+  nord7: #8fbcbb
+  nord8: #88c0d0
+  nord9: #81a1c1
+  nord10: #5e81ac
+  nord11: #bf616a
+  nord12: #d08770
+  nord13: #ebcb8b
+  nord14: #a3be8c
+  nord15: #b48ead
 page:
   size: A4
 font:
@@ -15,109 +34,109 @@ font:
       bold: JetBrainsMono-Bold.ttf
       bold_italic: JetBrainsMono-BoldItalic.ttf
 base:
-  font-color: #2E3440
+  font-color: $nord-nord0
   font-family: Noto-Sans
   font-size: 10
 heading:
-  font-color: #3B4252
+  font-color: $nord-nord1
 caption:
-  font-color: #5E81AC
+  font-color: $nord-nord10
 link:
-  font-color: #81A1C1
+  font-color: $nord-nord9
 literal:
-  background-color: #ECEFF4
-  font-color: #4C566A
+  background-color: $nord-nord6
+  font-color: $nord-nord3
   font-family: JetBrains-Mono
   font-size: 9
   border-offset: 2
   border-radius: 2px
 code:
-  background-color: #ECEFF4
+  background-color: $nord-nord6
   font-family: JetBrains-Mono
-  font-color: #4C566A
+  font-color: $nord-nord3
   font-size: 9
-  border-color: #ECEFF4
+  border-color: $nord-nord6
   border-radius: 4px
   border-width: 1
-  highlight-background-color: #E5E9F0
-  linenum-font-color: #D8DEE9
+  highlight-background-color: $nord-nord5
+  linenum-font-color: $nord-nord4
 conum:
-  font-color: #B48EAD
+  font-color: $nord-nord15
   glyphs: circled
 key:
-  background-color: #ECEFF4
-  font-color: #4C566A
+  background-color: $nord-nord6
+  font-color: $nord-nord3
   font-family: JetBrains-Mono
   font-style: normal
   font-size: 9
   border-width: 1
-  border-color: #D8DEE9
+  border-color: $nord-nord4
   border-offset: 1
   border-radius: 2px
   content: " %s "
 button:
-  background-color: #ECEFF4
-  font-color: #4C566A
+  background-color: $nord-nord6
+  font-color: $nord-nord3
   font-family: Noto-Sans
   font-style: normal
   font-size: 9
   border-width: 1
-  border-color: #D8DEE9
+  border-color: $nord-nord4
   border-offset: 1
   border-radius: 2px
   content: " %s "
 blockquote:
-  font-color: #434C5E
+  font-color: $nord-nord2
   font-family: Noto-Sans
   font-size: 10
   font-style: italic
   padding: [6, 12, -6, 14]
-  border-color: #D8DEE9
+  border-color: $nord-nord4
   border-left-width: 3
   border-width: 0
   cite:
-    font-color: #4C566A
+    font-color: $nord-nord3
     font-family: Noto-Sans
     font-size: 9
     font-style: italic
 verse:
-  font-color: #434C5E
+  font-color: $nord-nord2
   font-family: Noto-Sans
   font-size: 10
   font-style: italic
   padding: [6, 12, -6, 14]
-  border-color: #D8DEE9
+  border-color: $nord-nord4
   border-left-width: 3
   border-width: 0
   cite:
-    font-color: #4C566A
+    font-color: $nord-nord3
     font-family: Noto-Sans
     font-size: 9
     font-style: italic
 sidebar:
-  background-color: #ECEFF4
+  background-color: $nord-nord6
   font-family: Noto-Sans
-  font-color: #4C566A
+  font-color: $nord-nord3
   font-size: 9
-  border-color: #ECEFF4
+  border-color: $nord-nord6
   border-radius: 4px
   border-width: 1
   title:
     align: left
-    font-color: #5E81AC
+    font-color: $nord-nord10
     font-family: Noto-Sans
     font-style: bold
     font-size: 12
 example:
   background-color: #FFFFFF
-  border-color: #ECEFF4
+  border-color: $nord-nord6
   border-radius: 4px
   border-width: 1
-  font-color: #2E3440
+  font-color: $nord-nord0
   font-family: Noto-Sans
   font-size: 10
 admonition:
-  column-rule-color: #D8DEE9
+  column-rule-color: $nord-nord4
   column-rule-style: solid
   column-rule-width: 1
   label:
@@ -126,67 +145,70 @@ admonition:
   icon:
     note:
       name: fas-pencil-alt
-      stroke-color: #81A1C1
+      stroke-color: $nord-nord9
       size: 14
     tip:
       name: fas-thumbs-up
-      stroke-color: #A3BE8C
+      stroke-color: $nord-nord14
       size: 14
     warning:
       name: fas-skull-crossbones
-      stroke-color: #BF616A
+      stroke-color: $nord-nord11
       size: 14
     important:
       name: fas-highlighter
-      stroke-color: #EBCB8B
+      stroke-color: $nord-nord13
       size: 14
     caution:
       name: fas-exclamation-triangle
-      stroke-color: #D08770
+      stroke-color: $nord-nord12
       size: 14
 image:
   align: center
 thematic-break:
-  border-color: #ECEFF4
+  border-color: $nord-nord6
   border-style: solid
   border-width: 1
 description-list:
-  term-font-color: #5E81AC
+  term-font-color: $nord-nord10
+# Use the roles below to customize the font color of paragraphs or inline phrases.
+# For paragraphs, prepend the entire paragraph as follows: [.nord12]
+# For inline phrases, wrap your inline phrase as follows: [.nord12]#your inline phrase#
 role:
   nord0:
-    font-color: #2e3440
+    font-color: $nord-nord0
   nord1:
-    font-color: #3b4252
+    font-color: $nord-nord1
   nord2:
-    font-color: #434c5e
+    font-color: $nord-nord2
   nord3:
-    font-color: #4c566a
+    font-color: $nord-nord3
   nord4:
-    font-color: #d8dee9
+    font-color: $nord-nord4
   nord5:
-    font-color: #e5e9f0
+    font-color: $nord-nord5
   nord6:
-    font-color: #eceff4
+    font-color: $nord-nord6
   nord7:
-    font-color: #8fbcbb
+    font-color: $nord-nord7
   nord8:
-    font-color: #88c0d0
+    font-color: $nord-nord8
   nord9:
-    font-color: #81a1c1
+    font-color: $nord-nord9
   nord10:
-    font-color: #5e81ac
+    font-color: $nord-nord10
   nord11:
-    font-color: #bf616a
+    font-color: $nord-nord11
   nord12:
-    font-color: #d08770
+    font-color: $nord-nord12
   nord13:
-    font-color: #ebcb8b
+    font-color: $nord-nord13
   nord14:
-    font-color: #a3be8c
+    font-color: $nord-nord14
   nord15:
-    font-color: #b48ead
+    font-color: $nord-nord15
 footer:
-  font-color: #4C566A
+  font-color: $nord-nord3
   recto:
     right:
       content: '{section-or-chapter-title} | *{page-number}*'
