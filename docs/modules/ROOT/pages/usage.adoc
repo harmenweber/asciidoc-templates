@@ -1,0 +1,8 @@
+= Usage
+:author: Harmen Weber
+:email: harmen.weber@gmail.com
+:keywords: asciidoc-templates
+
+* https://docs.asciidoctor.org/pdf-converter/latest/install/[Install asciidoctor-pdf]
+* https://docs.asciidoctor.org/pdf-converter/latest/optimize-pdf/#rghost[Install RGhost]
+* https://docs.asciidoctor.org/asciidoctor/latest/syntax-highlighting/rouge/#install-rouge[Install Rouge]

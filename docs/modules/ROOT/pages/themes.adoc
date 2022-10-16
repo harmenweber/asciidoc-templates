@@ -25,6 +25,8 @@ Read xref:scripts.adoc[] and take a look at the source of the script to learn mo
 
 The theme extends the theme _default-with-fallback-font_ with colors and styling that kinda match the Nord theme.
 
+The theme uses the font Noto Sans for regular text and Jetbrains Mono for code.
+
 The theme defines sixteen roles named according to the sixteen colors in the Nord color palette: `nord0`, `nord1`, ... until ..., `nord15`.
 Use the roles to customize the font color of paragraphs or inline phrases.
 For paragraphs, prepend the entire paragraph with `[.nord12]`.

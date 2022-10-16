@@ -1,4 +1,5 @@
 * xref:index.adoc[]
+* xref:usage.adoc[]
 * xref:templates.adoc[]
 * xref:themes.adoc[]
 * xref:scripts.adoc[]
