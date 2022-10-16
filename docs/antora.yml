@@ -1,5 +1,13 @@
 name: asciidoc-templates
 title: asciidoc-templates
 version: ~
+asciidoc:
+  attributes:
+    url-repo: https://bitbucket.org/harmenweber/asciidoc-templates/src/master
+    sectnums: ''
+    sectanchors: ''
+    icons: font
+    icon-set: far
+    experimental: ''
 nav:
   - modules/ROOT/nav.adoc

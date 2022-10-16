@@ -172,8 +172,8 @@ thematic-break:
 description-list:
   term-font-color: $nord-nord10
 # Use the roles below to customize the font color of paragraphs or inline phrases.
-# For paragraphs, prepend the entire paragraph as follows: [.nord12]
-# For inline phrases, wrap your inline phrase as follows: [.nord12]#your inline phrase#
+# For paragraphs, prepend the entire paragraph with [.nord12].
+# For inline phrases, wrap your inline phrase as follows: [.nord12]#your inline phrase#.
 role:
   nord0:
     font-color: $nord-nord0

@@ -2,20 +2,17 @@
 :author: Harmen Weber
 :email: harmen.weber@gmail.com
 :keywords: asciidoc-templates
-:sectnums:
-:sectanchors:
-:source-highlighter: rouge
-:rouge-style: github
-:icons: font
-:icon-set: far
-:experimental:
+
+== Nord
 
 I love the https://www.nordtheme.com[Nord theme].
 Unfortunately, I'm terrible at adopting themes.
 Nevertheless, I spent a bit of effort to make my documents use the colors of the Nord theme.
-The theme is located at link:../../../../themes/nord-theme.yml[themes/nord-theme.yml].
+The theme is located at link:{url-repo}/themes/nord-theme.yml[themes/nord-theme.yml].
 
-The simplest way to use the theme, is to call the script link:../../../../scripts/create-pdf-with-nord-theme.sh[scripts/create-pdf-with-nord-theme.sh] and pass your AsciiDoc file as argument to it.
+=== Usage
+
+The simplest way to use the theme, is to call the script link:{url-repo}/scripts/create-pdf-with-nord-theme.sh[scripts/create-pdf-with-nord-theme.sh] and pass your AsciiDoc file as argument to it.
 
 [source,shell]
 ----
@@ -23,3 +20,12 @@ The simplest way to use the theme, is to call the script link:../../../../script
 ----
 
 Read xref:scripts.adoc[] and take a look at the source of the script to learn more about the script.
+
+=== Features
+
+The theme extends the theme _default-with-fallback-font_ with colors and styling that kinda match the Nord theme.
+
+The theme defines sixteen roles named according to the sixteen colors in the Nord color palette: `nord0`, `nord1`, ... until ..., `nord15`.
+Use the roles to customize the font color of paragraphs or inline phrases.
+For paragraphs, prepend the entire paragraph with `[.nord12]`.
+For inline phrases, wrap your inline phrase as follows: `[.nord12]\#your inline phrase#`.
