@@ -3,10 +3,10 @@
 :email: harmen.weber@gmail.com
 :keywords: asciidoc-templates
 
-This repository holds resources that I use when I write in AsciiDoc.
+The {url-repo}[{page-component-name}] repository holds resources that I use when I write in AsciiDoc.
 It includes templates, themes, scripts and whatever else might be handy.
 
-To whoever stumbled upon this repository:
+To all who stumble upon this repository:
 I hope you find something useful for yourself.
 Let me know if you have anything to amend, improve or correct.
-Let me know if you have any resources of your own that you are willing to share.
+Let me know if you have any AsciiDoc related resources of your own that you are willing to share.
