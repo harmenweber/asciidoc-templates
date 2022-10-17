@@ -1,0 +1,4 @@
+// Don't use any variables in the repository description.
+// If you do, it cannot be included in other components like ch-harmen-docs.
+The asciidoc-templates repository holds resources that I use when I write in AsciiDoc.
+It includes templates, themes, scripts and whatever else might be handy.
