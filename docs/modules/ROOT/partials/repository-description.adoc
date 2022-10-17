@@ -1,0 +1,2 @@
+The {url-repo}[{page-component-name}] repository holds resources that I use when I write in AsciiDoc.
+It includes templates, themes, scripts and whatever else might be handy.
