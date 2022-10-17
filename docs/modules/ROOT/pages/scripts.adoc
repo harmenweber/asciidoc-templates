@@ -3,6 +3,8 @@
 :email: harmen.weber@gmail.com
 :keywords: asciidoc-templates
 
+include::partial$scripts-prerequisites.adoc[]
+
 == `create-pdf-with-nord-theme.sh`
 
 This script executes `asciidoctor-pdf` and passes options so that:
@@ -10,13 +12,6 @@ This script executes `asciidoctor-pdf` and passes options so that:
 * the xref:themes.adoc#_nord[Nord] theme is used
 * the source gets highlighted according to the GitHub style
 * the PDF gets optimized
-
-In order to use the script, you need to install the following tools:
-
-* Bash
-* https://docs.asciidoctor.org/pdf-converter/latest/install/[Install asciidoctor-pdf]
-* https://docs.asciidoctor.org/pdf-converter/latest/optimize-pdf/#rghost[Install RGhost]
-* https://docs.asciidoctor.org/asciidoctor/latest/syntax-highlighting/rouge/#install-rouge[Install Rouge]
 
 You should at least pass one AsciiDoc file as argument.
 

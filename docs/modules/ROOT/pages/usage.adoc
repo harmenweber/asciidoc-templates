@@ -3,6 +3,8 @@
 :email: harmen.weber@gmail.com
 :keywords: asciidoc-templates
 
-* https://docs.asciidoctor.org/pdf-converter/latest/install/[Install asciidoctor-pdf]
-* https://docs.asciidoctor.org/pdf-converter/latest/optimize-pdf/#rghost[Install RGhost]
-* https://docs.asciidoctor.org/asciidoctor/latest/syntax-highlighting/rouge/#install-rouge[Install Rouge]
+If you want to use one of the templates (e.g. the xref:templates.adoc#_simple_letter[simple letter]), I suggest you just copy that template directly from the repository.
+
+If you intend to use one of the themes (e.g. the xref:themes.adoc#_nord[Nord] theme), I suggest you clone the repository and use the script that corresponds to the theme (e.g. xref:scripts.adoc#_create_pdf_with_nord_theme_sh[create-pdf-with-nord-theme.sh]).
+
+include::partial$scripts-prerequisites.adoc[]

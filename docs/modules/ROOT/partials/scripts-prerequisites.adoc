@@ -1,0 +1,6 @@
+In order to use the scripts, you need to install the following tools:
+
+* Bash
+* https://docs.asciidoctor.org/pdf-converter/latest/install/[Install asciidoctor-pdf]
+* https://docs.asciidoctor.org/pdf-converter/latest/optimize-pdf/#rghost[Install RGhost]
+* https://docs.asciidoctor.org/asciidoctor/latest/syntax-highlighting/rouge/#install-rouge[Install Rouge]
