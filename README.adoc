@@ -1,0 +1,6 @@
+= README
+:author: Harmen Weber
+:email: harmen.weber@gmail.com
+
+This repository holds resources that I use when I write in AsciiDoc.
+It includes templates, themes, scripts and whatever else might be handy. Please refer to the https://docs.harmen.ch/asciidoc-templates/index.html[documentation] to learn more.
