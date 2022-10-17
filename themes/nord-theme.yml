@@ -43,7 +43,7 @@ caption:
   font-color: $nord-nord10
 link:
   font-color: $nord-nord9
-literal:
+codespan:
   background-color: $nord-nord6
   font-color: $nord-nord3
   font-family: JetBrains-Mono
@@ -63,7 +63,7 @@ code:
 conum:
   font-color: $nord-nord15
   glyphs: circled
-key:
+kbd:
   background-color: $nord-nord6
   font-color: $nord-nord3
   font-family: JetBrains-Mono
@@ -85,7 +85,7 @@ button:
   border-offset: 1
   border-radius: 2px
   content: " %s "
-blockquote:
+quote:
   font-color: $nord-nord2
   font-family: Noto-Sans
   font-size: 10

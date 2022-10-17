@@ -3,9 +3,11 @@ title: asciidoc-templates
 version: ~
 asciidoc:
   attributes:
+    # If the url-repo changes, I have to do a full search 'n' replace across the entire repo.
     url-repo: https://bitbucket.org/harmenweber/asciidoc-templates/src/master
     sectnums: ''
     sectanchors: ''
+    autofit-option: ''
     icons: font
     icon-set: far
     experimental: ''
