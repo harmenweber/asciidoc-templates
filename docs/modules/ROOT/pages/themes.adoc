@@ -8,11 +8,11 @@
 I love the https://www.nordtheme.com[Nord theme].
 Unfortunately, I'm terrible at adopting themes.
 Nevertheless, I spent a bit of effort to make my documents use the colors of the Nord theme.
-The theme is located at link:{url-repo}/themes/nord-theme.yml[themes/nord-theme.yml].
+The theme is located at link:{url-repo}/blob/main/themes/nord-theme.yml[themes/nord-theme.yml].
 
 === Usage
 
-The simplest way to use the theme, is to call the script link:{url-repo}/scripts/create-pdf-with-nord-theme.sh[scripts/create-pdf-with-nord-theme.sh] and pass your AsciiDoc file as argument to it.
+The simplest way to use the theme, is to call the script link:{url-repo}/blob/main/scripts/create-pdf-with-nord-theme.sh[scripts/create-pdf-with-nord-theme.sh] and pass your AsciiDoc file as argument to it.
 
 [source,shell]
 ----

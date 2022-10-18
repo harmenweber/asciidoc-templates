@@ -3,30 +3,16 @@
 :email: harmen.weber@gmail.com
 :keywords: asciidoc-templates
 
-== Simple Article
-
-I use this template
-
-* as a reference on how to do certain things in AsciiDoc like callouts or tables
-* to test the looks of things when working with xref:themes.adoc[].
-
-Here is a link to the PDF of the simple article: {url-repo}/templates/simple-article.pdf[templates/simple-article.pdf].
-It was created using the xref:themes.adoc#_nord[Nord] theme.
-
-++++
-<iframe src="/Users/harmen/repositories/asciidoc-templates/templates/simple-article.pdf" height="400px" style="margin: 0 auto; display:block;"></iframe>
-++++
-
 == Simple Letter
 
 I use this template as a starting point when writing letters in AsciiDoc.
-I just copy the link:{url-repo}/templates/simple-letter.adoc[templates/simple-letter.adoc], rename it and start typing my letter.
+I just copy the `templates/simple-letter.adoc`, rename it and start typing my letter.
 
-Here is a link to the PDF of the simple letter: {url-repo}/templates/simple-letter.pdf[templates/simple-letter.pdf].
-It was created using the xref:themes.adoc#_nord[Nord] theme.
+Below is the PDF of the template.
+It was generated using the xref:themes.adoc#_nord[Nord] theme.
 
 ++++
-<iframe src="/Users/harmen/repositories/asciidoc-templates/templates/simple-letter.pdf" height="400px" style="margin: 0 auto; display:block;"></iframe>
+<iframe src="_attachments/simple-letter.pdf" height="400px" style="margin: 0 auto; display:block;"></iframe>
 ++++
 
 The positioning of the addressee paragraph is tricky.
@@ -48,6 +34,38 @@ image::horizontal-positioning-of-addressee-in-simple-letter.drawio.svg[]
 
 Make sure you change the path to the signature file to point to your signature file.
 
+== Résumé / Curriculum Vitae (CV)
+
+This is a template for a simple résumé.
+If you are into fancy looking résumés, this template here is not for you.
+AsciiDoc is not a page layout design tool.
+Use something else for fancy layouts.
+
+The template is located at `templates/cv.adoc`.
+
+Below is the PDF of the template.
+It was generated using the xref:themes.adoc#_nord[Nord] theme.
+
+++++
+<iframe src="_attachments/cv.pdf" height="400px" style="margin: 0 auto; display:block;"></iframe>
+++++
+
+== Simple Article
+
+I use the simple article template
+
+* as a reference on how to do certain things in AsciiDoc like callouts or tables
+* to test the looks of things when working with xref:themes.adoc[].
+
+The template is located at `templates/simple-article.adoc`.
+
+Below is the PDF of the template.
+It was generated using the xref:themes.adoc#_nord[Nord] theme.
+
+++++
+<iframe src="_attachments/simple-article.pdf" height="400px" style="margin: 0 auto; display:block;"></iframe>
+++++
+
 == Folder Cover
 
 I used to keep hard copies of documents in folders.
@@ -55,27 +73,12 @@ In these folders, I grouped the documents by topic.
 For every topic, I created a cover page.
 That allowed me to quickly crawl through my folders in search for a specific topic.
 
-Although I'm not using it anymore, I still have my simple folder cover template: link:{url-repo}/templates/folder-cover.adoc[templates/folder-cover.adoc].
+Although I'm not using it anymore, I still have my simple folder cover template.
+It is located at `templates/folder-cover.adoc`.
 
-Here is a link to the PDF of the folder cover: {url-repo}/templates/folder-cover.pdf[templates/folder-cover.pdf].
-It was created using the xref:themes.adoc#_nord[Nord] theme.
-
-++++
-<iframe src="/Users/harmen/repositories/asciidoc-templates/templates/folder-cover.pdf" height="400px" style="margin: 0 auto; display:block;"></iframe>
-++++
-
-== Résumé / Curriculum Vitae (CV)
-
-This is a template for a simple résumé: link:{url-repo}/templates/cv.adoc[templates/cv.adoc].
-
-If you are into fancy looking résumés, this template here is not for you.
-AsciiDoc is not a page layout design tool.
-Use something else for fancy layouts.
-
-
-Here is a link to the PDF of the folder cover: {url-repo}/templates/cv.pdf[templates/cv.pdf].
-It was created using the xref:themes.adoc#_nord[Nord] theme.
+Here is the PDF of the template.
+It was generated using the xref:themes.adoc#_nord[Nord] theme.
 
 ++++
-<iframe src="/Users/harmen/repositories/asciidoc-templates/templates/cv.pdf" height="400px" style="margin: 0 auto; display:block;"></iframe>
+<iframe src="_attachments/folder-cover.pdf" height="400px" style="margin: 0 auto; display:block;"></iframe>
 ++++
