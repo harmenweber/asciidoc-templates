@@ -21,8 +21,8 @@ At least not to my knowledge.
 The best thing I can currently offer is the following:
 
 To change the vertical position of the addressee paragraph, you first update the sender paragraph to your needs.
-Once the height of the sender paragraph is clear, you can change the height of the transparent spacer image between the sender paragraph and the addressee paragraph.
-Adjust the height of the transparent spacer image until the addressee paragraph sits nicely in the addressee window of your envelopes.
+Once the sender paragraph is settled and its height doesn't change anymore, you can change the height of the transparent spacer image between the sender paragraph and the addressee paragraph.
+Adjust the height of the image until the addressee paragraph sits nicely in the addressee window of your envelopes.
 
 .Vertical addressee positioning
 image::vertical-positioning-of-addressee-in-simple-letter.drawio.svg[]
