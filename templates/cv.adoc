@@ -12,20 +12,20 @@
 :experimental:
 
 == Harmen Weber
-Designer, developer and operator of enterprise applications in the cloud that provide a modern API and integrate other enterprise applications via web services and messaging. +
+Designer, developer and operator of enterprise applications in the cloud that provide a modern API and integrate other enterprise applications via APIs and messaging. +
 
 Core competency in backend development (PoEAA) and integration (EIP) using the Java ecosystem, messaging and relational databases.
-Basic experience in frontend development with Typescript/Javascript.
 
 [.nord3]#icon:map-marker-alt[fw]# [.nord4]#|# Dohlenzelgstrasse 21B, 5210 Windisch +
 [.nord3]#icon:phone[fw]# [.nord4]#|# +41 79 659 63 87 +
-[.nord3]#icon:envelope[fw]# [.nord4]#|# \harmen.weber@gmail.com +
-[.nord3]#icon:linkedin-in[set=fab,fw]# [.nord4]#|# linkedin.com/in/harmenweber/
+[.nord3]#icon:envelope[fw]# [.nord4]#|# \harmen.weber@gmail.com
 
-=== Work Experience
+'''
+.Work Experience
+
 [horizontal]
 [.nord3]#Jul 2013 – Mar 2022#::
-**Senior Software Engineer at Arviem AG** +
+**Arviem AG - Senior Software Engineer** +
 Designed, developed and operated Arviem's supply chain monitoring system.
 It's a SaaS that provides multimodal in-transit supply chain visibility to Arviem's clients.
 It processes data from various sources and distills actionable insights.
@@ -42,10 +42,12 @@ Example events: door opened/closed, geo zone entry/exit, motion/stationary, shoc
 * Performance report to assess and monitor the performance of routes, carriers, transshipment locations, etc.
 
 Tech stack: Java, Javascript, Maven, Spring Boot, Spring Integration, Spring Batch, Hibernate, RabbitMQ, Apache Spark, MySQL, AWS Aurora, AWS Elastic Beanstalk, AWS Athena, Tableau.
+
+Reference: Roman Mäder, CTO, +41 76 432 95 11
 --
 
 [.nord3]#Feb 2012 – Jun 2013#::
-**Software Developer at Legando AG** +
+**Legando AG - Software Developer** +
 Developed the Legando Enterprise Solution Suite (LESS) which is Legando's internal framework for next generation application powered by Java, Spring, Hibernate and Vaadin. +
 Developed Legando's registered shares solution (NAR) powered by LESS. +
 Maintained Legando's core banking solution. +
@@ -53,7 +55,7 @@ Maintained Legando's core banking solution. +
 Tech stack: Java, Javascript, Maven, Spring Framework, Spring Integration, Hibernate, Vaadin, Oracle Database, Oracle WebLogic.
 
 [.nord3]#Jan 2006 – Jan 2012#::
-**Advisory IT Specialist at IBM Schweiz AG** +
+**IBM Schweiz AG - Advisory IT Specialist** +
 Worked on the following projects / for the following clients: +
 +
 --
@@ -63,7 +65,7 @@ Introduced processes and tools to measure and improve code quality. +
 Developed automated acceptance and regression tests.
 
 [.nord3]#ZEK/IKO#::
-Maintained and extended the existing ZEK/IKO credit information and assessment system. +
+Maintained and extended the ZEK/IKO credit information and assessment system. +
 +
 Tech stack: Java, Maven, IBM WebSphere, IBM MQ Series, IBM DB2, SOAP & WS-Security.
 
@@ -75,22 +77,17 @@ Conducted knowledge transfer sessions with the offshore development team. +
 Coached the development team and performed acceptance tests.
 --
 
-=== Academic Record
+'''
+.Academic Record
+
 [horizontal]
 [.nord3]#Oct 2002 – Dec 2005#::
-**University of Applied Sciences and Arts Northwestern Switzerland FHNW** +
+**University of Applied Sciences and Arts Northwestern Switzerland (FHNW)** +
 Bachelor, Enterprise Computing
 
-=== IT Skills
-[horizontal]
-[.nord3]#Core#::
-Design, development and operations of enterprise applications (PoEAA) and integrations (EIP) in the cloud using the Java ecosystem, messaging and relational databases.
+'''
+.Language Skills
 
-[.nord3]#Basic#::
-Back-end development with NestJS. +
-Front-end development with Typescript/Javascript.
-
-=== Language Skills
 [horizontal]
 [.nord3]#Mother Tongue#:: German
 [.nord3]#Fluent#:: English
