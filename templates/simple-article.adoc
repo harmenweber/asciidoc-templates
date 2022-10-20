@@ -364,3 +364,67 @@ Here is some text that is followed by a horizontal rule.
 '''
 
 And then the text continues.
+
+== Paragraph Summary Layout
+
+[cols="1a,4a",options="noheader",grid=none,frame=none]
+|===
+|
+[.paragraph-summary]
+The section has a layout that supports summaries right next to the paragraphs.
+| This section here makes an attempt at writing a text summaries right next to the paragraphs.
+The summaries are displayed in their own column.
+They are slightly less emphasized than they main text.
+The idea is that the main text still has the reader's focus.
+The summaries are merely there for the reader to recap what the paragraphs are about.
+Apart from being helpful for a recap, the summaries also help in finding a particular paragraph.
+
+|
+[.paragraph-summary]
+I anticipate a problem with page breaks.
+| I created this layout using a table.
+If a page breaks happen in the middle of a cell, then I guess the entire cell will be moved over to the next pages as cells usually do not break.
+Let's make this paragraph rather long and then add a few more paragraphs to it to see how it will behave.
+
+|
+[.paragraph-summary]
+What is Lorem Ipsum?
+| Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+|
+| Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sagittis orci nisl, id suscipit enim accumsan ut. Nullam vitae lobortis velit. Fusce lobortis pharetra elit, posuere feugiat eros mattis quis. Aliquam tincidunt arcu eu mauris accumsan luctus. Morbi tincidunt eget mauris sit amet mattis. Vivamus eros augue, rutrum sit amet pulvinar ac, pretium nec ante.
+
+|
+[.paragraph-summary]
+Where does it come from?
+| Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+|
+| The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+|
+[.paragraph-summary]
+Why do we use it?
+| It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+|
+[.paragraph-summary]
+Conclusion: on page break, paragraphs in this layout move to the next page.
+| Unfortunately, in this layout, entire paragraphs move over to the next page if a page break happens to be within the paragraph.
+That is because I created this layout using a table.
+So, each paragraph in this layout is a table cell.
+Cells obviously do not break in the sense that half of the cell stays on the current page and the rest of the cell moves over onto the next page.
+Instead, the entire cell moves over to the next page in case it doesn't have enough space on the current page.
+
+|
+[.paragraph-summary]
+Breakable doesn't help.
+| I tried solving this problem with the `%breakable` option although breakable is anyway the default.
+Adding breakable didn't help.
+It does not have the desired effect.
+
+|
+[.paragraph-summary]
+Keep paragraphs small.
+| The only workaround I can offer is to keep the paragraphs relatively small, so it doesn't hurt that much when an entire paragraph gets moved over to the next page.
+|===

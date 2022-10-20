@@ -171,10 +171,24 @@ thematic-break:
   border-width: 1
 description-list:
   term-font-color: $nord-nord10
-# Use the roles below to customize the font color of paragraphs or inline phrases.
-# For paragraphs, prepend the entire paragraph with [.nord12].
-# For inline phrases, wrap your inline phrase as follows: [.nord12]#your inline phrase#.
 role:
+  # Role required for the paragraph summary layout.
+  # Simply create a table with two columns.
+  # One for the summaries and one for the text:
+  #  [cols="1a,4a",options="noheader",grid=none,frame=none]
+  #  |===
+  #  | [.paragraph-summary]
+  #  This is the paragraph summary.
+  #  | This is the actual paragraph.
+  #  |===
+  # For an example, see the simple-article.adoc.
+  paragraph-summary:
+    text-align: right
+    font-color: $nord-nord9
+    font-size: 0.9em
+  # Use the roles below to customize the font color of paragraphs or inline phrases.
+  # For paragraphs, prepend the entire paragraph with [.nord12].
+  # For inline phrases, wrap your inline phrase as follows: [.nord12]#your inline phrase#.
   nord0:
     font-color: $nord-nord0
   nord1:
