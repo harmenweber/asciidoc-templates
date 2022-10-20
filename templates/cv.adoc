@@ -12,7 +12,7 @@
 :experimental:
 
 == Harmen Weber
-Designer, developer and operator of enterprise applications in the cloud that provide a modern API and integrate other enterprise applications via APIs and messaging. +
+Designer, developer and operator of enterprise applications in the cloud that provide a modern API and integrate other services via APIs and messaging. +
 
 Core competency in backend development (PoEAA) and integration (EIP) using the Java ecosystem, messaging and relational databases.
 
