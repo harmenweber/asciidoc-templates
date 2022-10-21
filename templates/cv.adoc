@@ -47,7 +47,7 @@ Example features:
 
 * Realtime monitoring of sensor values and events of in-transit shipments. +
 Example sensor values: position, temperature, humidity. +
-Example events: door opened/closed, geo zone entry/exit, motion/stationary, shock.
+Example events: door open/close, geo zone entry/exit, motion/stationary, shock.
 * Push and pull API.
 * ETA calculation.
 * Emissions accounting according to the GLEC framework.
@@ -58,7 +58,7 @@ Tech stack: Java, Javascript, Maven, Spring Boot, Spring Integration, Spring Bat
 | [.nord3]#Feb 2012 – Jun 2013# +
 [.nord9]#_(1y 5m)_#
 | **Legando AG - Software Developer** +
-Developed the Legando Enterprise Solution Suite (LESS) which is Legando's internal framework for next generation application powered by Java, Spring, Hibernate and Vaadin. +
+Developed the Legando Enterprise Solution Suite (LESS) which is Legando's internal framework for next generation applications powered by Java, Spring, Hibernate and Vaadin. +
 Developed Legando's registered shares solution (NAR) powered by LESS. +
 Maintained Legando's core banking solution. +
 
@@ -81,7 +81,7 @@ Tech stack: Java, Maven, IBM WebSphere, IBM MQ Series, IBM DB2, SOAP & WS-Securi
 
 [.nord3]#Vista#::
 Gathered requirements for the social insurance system Vista.
-First for the sub application regarding family allowances and later for the sub application regarding contributions. +
+First for the module on family allowances and later for the module on contributions. +
 Created detailed and development ready documentation for the offshore development team in India. +
 Conducted knowledge transfer sessions with the offshore development team. +
 Coached the development team and performed acceptance tests.
