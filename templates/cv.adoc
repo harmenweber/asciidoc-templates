@@ -21,9 +21,9 @@
 --
 Designer, developer and operator of enterprise applications in the cloud that provide a modern API and integrate other services via APIs and messaging. +
 
-Core competency in backend development (PoEAA) and integration (EIP) using the Java ecosystem, messaging and relational databases.
+Core competence in backend development (PoEAA) and integration (EIP) using the Java ecosystem, messaging and relational databases.
 
-[.nord3]#icon:baby[fw]# [.nord4]#\|# 1980-09-09 [.nord9]#_(42 years old)_# +
+[.nord3]#icon:baby[fw]# [.nord4]#\|# 1980-09-09 [.harmen-nord3-dot50]#_(42 years old)_# +
 [.nord3]#icon:map-marker-alt[fw]# [.nord4]#\|# Dohlenzelgstrasse 21B, 5210 Windisch +
 [.nord3]#icon:phone[fw]# [.nord4]#\|# +41 79 659 63 87 +
 [.nord3]#icon:envelope[fw]# [.nord4]#\|# \harmen.weber@gmail.com
@@ -35,7 +35,7 @@ Core competency in backend development (PoEAA) and integration (EIP) using the J
 [cols="1a,3a",options="noheader",grid=none,frame=none]
 |===
 | [.nord3]#Jul 2013 – Mar 2022# +
-[.nord9]#_(8y 9m)_#
+[.harmen-nord3-dot50]#_(8y 9m)_#
 | **Arviem AG - Senior Software Engineer** +
 [.nord9]#_(Reference: Roman Mäder, CTO, +41 76 432 95 11)_# +
 Designed, developed and operated Arviem's supply chain monitoring system.
@@ -56,7 +56,7 @@ Example events: door open/close, geo zone entry/exit, motion/stationary, shock.
 Tech stack: Java, Javascript, Maven, Spring Boot, Spring Integration, Spring Batch, Hibernate, RabbitMQ, Apache Spark, MySQL, AWS Aurora, AWS Elastic Beanstalk, AWS Athena, Tableau.
 
 | [.nord3]#Feb 2012 – Jun 2013# +
-[.nord9]#_(1y 5m)_#
+[.harmen-nord3-dot50]#_(1y 5m)_#
 | **Legando AG - Software Developer** +
 Developed the Legando Enterprise Solution Suite (LESS) which is Legando's internal framework for next generation applications powered by Java, Spring, Hibernate and Vaadin. +
 Developed Legando's registered shares solution (NAR) powered by LESS. +
@@ -65,7 +65,7 @@ Maintained Legando's core banking solution. +
 Tech stack: Java, Javascript, Maven, Spring Framework, Spring Integration, Hibernate, Vaadin, Oracle Database, Oracle WebLogic.
 
 | [.nord3]#Jan 2006 – Jan 2012# +
-[.nord9]#_(6y 1m)_#
+[.harmen-nord3-dot50]#_(6y 1m)_#
 | **IBM Schweiz AG - Advisory IT Specialist** +
 Worked on the following projects / for the following clients: +
 
@@ -87,7 +87,7 @@ Conducted knowledge transfer sessions with the offshore development team. +
 Coached the development team and performed acceptance tests.
 
 | [.nord3]#Oct 2002 – Dec 2005# +
-[.nord9]#_(3y 3m)_#
+[.harmen-nord3-dot50]#_(3y 3m)_#
 | **University of Applied Sciences and Arts Northwestern Switzerland (FHNW) - Student** +
 Degree: Dipl. Ingenieur FH / Bachelor of Science +
 Field of Study: Computer Science +

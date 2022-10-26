@@ -18,6 +18,12 @@ nord:
   nord13: #ebcb8b
   nord14: #a3be8c
   nord15: #b48ead
+harmen:
+  # The following colors bridge the gap between nord3 and nord4.
+  # See https://meyerweb.com/eric/tools/color-blend/#4C566A:D8DEE9:5:hex
+  nord3-dot25: #6F788A
+  nord3-dot50: #929AAA
+  nord3-dot75: #B5BCC9
 page:
   size: A4
 font:
@@ -221,6 +227,12 @@ role:
     font-color: $nord-nord14
   nord15:
     font-color: $nord-nord15
+  harmen-nord3-dot25:
+    font-color: $harmen-nord3-dot25
+  harmen-nord3-dot50:
+    font-color: $harmen-nord3-dot50
+  harmen-nord3-dot75:
+    font-color: $harmen-nord3-dot75
 footer:
   font-color: $nord-nord3
   recto:

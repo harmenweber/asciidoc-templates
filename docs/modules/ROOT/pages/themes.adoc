@@ -31,3 +31,12 @@ The theme defines sixteen roles named according to the sixteen colors in the Nor
 Use the roles to customize the font color of paragraphs or inline phrases.
 For paragraphs, prepend the entire paragraph with `[.nord12]`.
 For inline phrases, wrap your inline phrase as follows: `[.nord12]\#your inline phrase#`.
+
+Sometimes, I wish for more shades of gray between `nord3` and `nord4`.
+`nord3` seems too dark and `nord4` too bright.
+So, I defined three more roles to bridge the gap between `nord3` and `nord4`.
+The three roles are:
+
+* [.harmen-nord3-dot25]#icon:square[]# `harmen-nord3-dot25` (#6F788A)
+* [.harmen-nord3-dot50]#icon:square[]# `harmen-nord3-dot50` (#929AAA)
+* [.harmen-nord3-dot75]#icon:square[]# `harmen-nord3-dot75` (#B5BCC9)
