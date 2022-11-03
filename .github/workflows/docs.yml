@@ -1,19 +1,16 @@
-name: Build
+name: Publish Documentation
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+    paths:
+      - 'docs/**'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Build
-      run: |
-        echo 'This repo does not need a build.'
-        echo 'However, if resources in this repository change, then the repo ch-harmen-docs should be built and redeployed.'
-
     - name: Trigger ch-harmen-docs build
       run: gh workflow run build.yml --repo harmenweber/ch-harmen-docs
       env:
