@@ -8,6 +8,9 @@
 :autofit-option:
 :toc:
 :sectnums:
+:table-frame: none
+:table-grid: rows
+:table-stripes: none
 :experimental:
 
 As far as I understood, the first paragraph after the main header is the preamble.
